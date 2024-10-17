@@ -100,7 +100,7 @@ export default function TipCalculatorComponent() {
         <CardFooter className="grid gap-2">
           {/* display the calculated tip amount */}
           <div className="flex items-center justify-between text-white">
-            <span>Tip Amount Amount:</span>
+            <span>Tip Amount</span>
             <span className="font-bold">{tipAmpunt.toFixed(2)}</span>
           </div>
           {/* Display the calculated total amount */}
